@@ -1,0 +1,27 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDo {
+
+	public static void main(String[] args) {
+		int jogador1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro"));
+		int chute = 0;
+		int contador = 0;
+		do {
+			chute = Integer.parseInt(JOptionPane.showInputDialog("Adivinhe o número digitado pelo jogador 1"));
+			contador = contador+1;
+			if (jogador1>chute) {
+				JOptionPane.showInputDialog(null, "O número é maior");
+				}else if (jogador1<chute) {
+					JOptionPane.showInputDialog("O número é menor");
+				}
+		}while(jogador1!=chute);
+			System.out.println("Parabéns, você acertou com " + contador + " tentativa(s).");
+		
+
+	}
+}
+
+
+

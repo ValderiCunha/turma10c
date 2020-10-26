@@ -1,0 +1,20 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDo {
+
+	public static void main(String[] args) {
+		int jogador1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro"));
+		int jogador2 = Integer.parseInt(JOptionPane.showInputDialog("Adivinhe o número digitado pelo jogador 1"));
+		if (jogador2==jogador1);
+		System.out.println("Jogador 2 acertou o número digitado pelo jogador 1");
+
+	
+	
+
+	}
+}
+
+
+

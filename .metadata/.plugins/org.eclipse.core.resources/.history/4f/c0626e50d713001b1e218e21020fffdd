@@ -1,0 +1,6 @@
+package br.com.casageral.teste;
+
+public class CasaGeralTeste {
+	marca.preencherMarca("samsung");
+
+}

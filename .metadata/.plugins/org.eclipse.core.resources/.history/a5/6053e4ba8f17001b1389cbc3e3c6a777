@@ -1,0 +1,33 @@
+package br.com.colecoes.implementacao;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class TesteList {
+
+	public static void main(String[] args) {
+		
+		//Colletcion Framework => recursos para acilitar o trabalho com dados multivalorados.
+		
+		List lista = new ArrayList();
+		lista.add("DBA");
+		lista.add("DEV");
+		lista.add("DEVOPS");
+		lista.add("DBA");
+
+		System.out.println(lista);
+		Collections.sort(lista);
+		System.out.println("Ordenada: " + lista);
+		System.out.println("Exibindo segundo elemnto: " + lista.get(1));
+		lista.remove(1);
+		System.out.println("Despois de excluir" + lista);
+		for (int contador=0;contador<lista.size();contador++) {
+			System.out.println("Cargo: " + lista.get(contador));
+		}
+		
+		
+		
+		}
+
+}

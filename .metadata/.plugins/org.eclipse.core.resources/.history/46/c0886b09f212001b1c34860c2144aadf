@@ -1,0 +1,13 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		String diarias = JOptionPane.showInputDialog("Digite a quantidade de diárias");
+				
+
+	}
+
+}

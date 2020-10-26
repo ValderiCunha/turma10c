@@ -1,0 +1,10 @@
+package br.com.unixyz.implementacao;
+
+public class Curso {
+
+	public static void main(String[] args) {
+		Curso curso = new Curso;
+
+	}
+
+}

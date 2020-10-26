@@ -1,0 +1,9 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExemploWhile {
+
+
+	}
+}

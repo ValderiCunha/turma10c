@@ -1,0 +1,21 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioComposta {
+
+	public static void main(String[] args) {
+		// Peça a entrada de Veiculo, quantidade de Passageiros.
+		// Exiba a mensagem:
+		// "Veiculo Categoria A", se a quantidade de passageiros for igual a 2.
+		// "Veiculo Categoria B", se a quantidade de passageiros estiver entre 4 e 7.
+		// "Veiculo Categoria C", se a quantidade de passageiros for maior que 7.
+		
+		String veiculo = JOptionPane.showInputDialog("Informe o veículo");
+		short passageiro = Short.parseShort(JOptionPane.showInputDialog("Digite a quantidade de passageiros"));
+		
+		
+		
+	}
+
+}

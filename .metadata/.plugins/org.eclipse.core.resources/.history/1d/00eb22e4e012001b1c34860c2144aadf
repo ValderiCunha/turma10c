@@ -1,0 +1,26 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoEncadeada {
+
+	public static void main(String[] args) {
+		String nome = JOptionPane.showInputDialog("Digite o nome").toUpperCase();
+		byte faltas = Byte.parseByte(JOptionPane.showInputDialog("Digite o número de faltas"));
+		float nota1 = Float.parseFloat(JOptionPane.showInputDialog("Nota 1"));
+		float nota2 = Float.parseFloat(JOptionPane.showInputDialog("Nota 2"));
+		float media = (nota1+nota2)/2;
+		if (media>=6 && faltas<=20) {
+			System.out.println("Aprovado com media: " + media);
+		}else if (media<4 || faltas>20) {
+			System.out.println("Infelizmente você foi reprovado com a média: " + media);
+		}else {
+			System.out.println("Você ainda tem uma chance no exame");
+		}
+		System.out.println("Até Logo");
+		// Exibir a mensagem "Infelizmente você foi reprovado com a média:
+		//Peçam o total de faltas
+		//Se o total de faltas for maior que 20, o aluno está reprovado.
+	} //metodo main
+
+} // da classe

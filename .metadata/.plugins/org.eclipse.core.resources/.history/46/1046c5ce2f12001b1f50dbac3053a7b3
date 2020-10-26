@@ -1,0 +1,17 @@
+package variaveis;
+
+public class VendaProduto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String produto = "arroz";
+		int codigo = 1;
+		double valor = 33.5;
+		double quantidade = 4.5;
+		System.out.println("Produto............: " + produto);
+		System.out.println("Total..............: " + (quantidade*valor));
+		System.out.println("Total com Desconto.: " + (quantidade*valor*0.9));
+
+	}
+
+}

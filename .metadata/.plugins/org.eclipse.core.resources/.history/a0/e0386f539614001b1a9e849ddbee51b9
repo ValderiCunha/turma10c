@@ -1,0 +1,13 @@
+package br.com.unixyz.util;
+
+public class Magica {
+
+	public static String s(String msg) {
+		return JOption.Pane.showInputDialLog(msg.toUpperCase();
+	}
+	public static int s(String msg) {
+		return Integer.parseInt(s(msg));
+	}
+	public static float f(String msg) {
+		return Float.parseInt(s(msg));
+}
